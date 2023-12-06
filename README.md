@@ -1,5 +1,5 @@
 # Desafio de projeto sobre Git/GitHub da Dio
-Repositório do desafio de projeto para Git/GitHub
+Repositório do desafio de projeto para Git/GitHub <br>
 Curiosidade: a extenção .md refere-se a formatação Markdown
 
 ## Links Úteis
