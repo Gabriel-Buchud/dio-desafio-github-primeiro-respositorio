@@ -1,0 +1,62 @@
+Curiosidades e comandos: 
+
+0 - Octocat:
+	O mascote do GitHub é chamado de "Octocat". Ele é uma mistura de um gato e um polvo e se tornou um símbolo 	reconhecível da plataforma.
+
+1 - Diferença entre Git e GitHub:
+	Git é um sistema de controle de versão distribuído.
+	GitHub é uma plataforma de hospedagem de código que utiliza o Git.
+
+2 - Repositório Local e Remoto:
+	O Git opera em dois ambientes: local (no seu computador) e remoto (em servidores como o GitHub).
+	Git clone é usado para copiar um repositório remoto para o seu computador.
+
+3 - Branches:
+	Git permite que você trabalhe em diferentes "ramificações" do seu código.
+	Use git branch para listar as branches e git checkout para mudar entre elas.
+
+4 - Commits:
+	git commit é usado para salvar as alterações no seu repositório.
+	Cada commit possui um identificador único chamado hash.
+
+5 - Merge:
+	Git merge combina as alterações de duas branches diferentes.
+	Pode resultar em conflitos que precisam ser resolvidos manualmente.
+
+6 - Status e Diferenças:
+	Git status mostra o estado atual do seu repositório.
+	Git diff exibe as diferenças entre as alterações.
+
+7 - Ignorando Arquivos:
+	Use um arquivo (.gitignore) para listar os arquivos que o Git deve ignorar.
+
+8 - Histórico de Commits:
+	Git log exibe o histórico de commits, mostrando quem fez qual alteração e quando.
+
+9 - Rebase:
+	Git rebase é usado para reorganizar ou combinar commits.
+	Pode ser útil para manter um histórico de commits mais limpo.
+
+10 - Desfazendo Alterações:
+	Git reset e git revert são comandos usados para desfazer alterações, mas eles funcionam de maneiras diferentes.
+
+	Git reset: Ele move a branch para um commit específico, descartando todos os commits depois desse ponto.
+	Pode ser usado com diferentes opções, como --soft, --mixed e --hard, que afetam a forma como as alterações são 	descartadas.
+
+	--soft: Mantém as alterações no índice (staging area), permitindo que você as modifique antes de criar um novo 	commit.
+	--mixed: Remove as alterações do índice, mas as mantém nos arquivos de trabalho. Você pode modificá-las e criar 	um novo commit.
+	--hard: Remove as alterações do índice e do diretório de trabalho, revertendo completamente para o commit 	especificado.
+
+	Git revert: é usado para criar um novo commit que desfaz as alterações introduzidas por um ou mais commits 	anteriores.
+	Em vez de remover commits, ele adiciona um novo commit que inverte as mudanças.
+	É útil quando você deseja manter um histórico linear e não deseja reescrever a história do repositório.
+
+11 - Stash:
+	O comando git stash é útil quando você precisa salvar temporariamente suas alterações para mudar de branch ou 	realizar outra tarefa.
+	git stash pop recupera as alterações do stash mais recente.
+
+12 - Bisect:
+	O comando git bisect é uma ferramenta de busca binária que ajuda a encontrar o commit que introduziu um bug, 	permitindo que você navegue eficientemente pelos commits.
+
+13 - Reflog:
+	O reflog (registro de referências) mantém um histórico local de onde as referências (como HEAD e branches) 	estiveram recentemente. Use git reflog para visualizar.
